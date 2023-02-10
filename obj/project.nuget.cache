@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "IRHMRRHah1bjhu+f6VRAfKfOm1EJxyFVSt8vHw8Vn3XzP5vPajfLjLyJXkL2vBSggZ4X1WANWoVoGHQW4QwVUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jtd\\source\\repos\\destiny-2-armor-tool\\destiny-2-armor-tool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jtd\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\jtd\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\jtd\\.nuget\\packages\\nstack.core\\1.0.7\\nstack.core.1.0.7.nupkg.sha512",
+    "C:\\Users\\jtd\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\jtd\\.nuget\\packages\\terminal.gui\\1.9.0\\terminal.gui.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+Name,Mobility,Resilience,Recovery,Discipline,Intellect,Strength
+Minor Mobility,5,0,0,0,0,0
+Major Mobility,10,0,0,0,0,0
+Minor Resilience,0,5,0,0,0,0
+Major Resilience,0,10,0,0,0,0
+Minor Recovery,0,0,5,0,0,0
+Major Recovery,0,0,10,0,0,0
+Minor Discipline,0,0,0,5,0,0
+Major Discipline,0,0,0,10,0,0
+Minor Intellect,0,0,0,0,5,0
+Major Intellect,0,0,0,0,10,0
+Minor Strength,0,0,0,0,0,5
+Major Strength,0,0,0,0,0,10
