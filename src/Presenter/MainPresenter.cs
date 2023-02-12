@@ -1,10 +1,10 @@
-﻿using TestApp.Data;
+﻿using DestinyArmorTool.Data;
+using DestinyArmorTool.Events;
+using DestinyArmorTool.TUI;
 using NStack;
 using Terminal.Gui;
-using TestApp.Events;
-using TestApp.TUI;
 
-namespace TestApp.Presenter;
+namespace DestinyArmorTool.Presenter;
 
 public class MainPresenter
 {

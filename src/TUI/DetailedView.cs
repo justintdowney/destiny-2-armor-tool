@@ -1,8 +1,8 @@
-﻿using NStack;
+﻿using DestinyArmorTool.Data;
+using NStack;
 using Terminal.Gui;
-using TestApp.Data;
 
-namespace TestApp.TUI;
+namespace DestinyArmorTool.TUI;
 
 public sealed class DetailedView : FrameView, IDetailedView
 {

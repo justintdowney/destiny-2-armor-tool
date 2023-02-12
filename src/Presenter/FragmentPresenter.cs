@@ -1,13 +1,13 @@
 ﻿using System.Globalization;
 using CsvHelper;
+using DestinyArmorTool.Data;
+using DestinyArmorTool.Events;
+using DestinyArmorTool.Model;
+using DestinyArmorTool.TUI;
 using NStack;
 using Terminal.Gui;
-using TestApp.Data;
-using TestApp.Events;
-using TestApp.Model;
-using TestApp.TUI;
 
-namespace TestApp.Presenter;
+namespace DestinyArmorTool.Presenter;
 
 public class FragmentPresenter
 {

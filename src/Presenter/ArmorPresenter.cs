@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel;
 using System.Globalization;
 using CsvHelper;
+using DestinyArmorTool.Data;
+using DestinyArmorTool.Events;
+using DestinyArmorTool.Model;
+using DestinyArmorTool.TUI;
 using Terminal.Gui;
-using TestApp.Data;
-using TestApp.Events;
-using TestApp.Model;
-using TestApp.TUI;
 
-namespace TestApp.Presenter;
+namespace DestinyArmorTool.Presenter;
 
 public class ArmorPresenter : ISubscriber<ListImportedEventArgs>, ISubscriber<ExportRequestedEventArgs>
 {
@@ -34,7 +34,7 @@ public class ArmorPresenter : ISubscriber<ListImportedEventArgs>, ISubscriber<Ex
         var records = csv.GetRecords<Armor>();
         _armorModel.Armor = records.ToList();
 
-        var dataSource = new SelectionDataSource<Armor>
+            var dataSource = new SelectionDataSource<Armor>
         {
             List = _armorModel.Armor
         };

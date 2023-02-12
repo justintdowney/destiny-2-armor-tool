@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel;
-using TestApp.Data;
-using TestApp.Events;
-using TestApp.Model;
-using TestApp.TUI;
+using DestinyArmorTool.Data;
+using DestinyArmorTool.Events;
+using DestinyArmorTool.Model;
+using DestinyArmorTool.TUI;
 
-namespace TestApp.Presenter;
+namespace DestinyArmorTool.Presenter;
 
 public class SummaryPresenter : ISubscriber<ListImportedEventArgs>, ISubscriber<SelectedCountChangedEventArgs>,
     ISubscriber<PropertyChangedEventArgs>, ISubscriber<PropertyChangingEventArgs>

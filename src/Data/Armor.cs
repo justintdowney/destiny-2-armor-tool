@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using CsvHelper.Configuration.Attributes;
 
-namespace TestApp.Data;
+namespace DestinyArmorTool.Data;
 
 public class Armor : INotifyPropertyChanging, INotifyPropertyChanged
 {

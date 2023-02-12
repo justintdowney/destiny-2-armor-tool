@@ -1,6 +1,6 @@
 ﻿using Terminal.Gui;
 
-namespace TestApp.TUI;
+namespace DestinyArmorTool.TUI;
 
 public interface IArmorView
 {

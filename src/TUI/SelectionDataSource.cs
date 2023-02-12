@@ -1,8 +1,8 @@
 ﻿using System.Collections;
+using DestinyArmorTool.Data;
 using Terminal.Gui;
-using TestApp.Data;
 
-namespace TestApp.TUI;
+namespace DestinyArmorTool.TUI;
 
 internal class SelectionDataSource<T> : IListDataSource
 {
@@ -11,7 +11,6 @@ internal class SelectionDataSource<T> : IListDataSource
 
     public List<T> List
     {
-        get => _list;
         set
         {
             Count = value.Count;

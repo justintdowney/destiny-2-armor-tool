@@ -1,6 +1,6 @@
-﻿using TestApp.Events;
+﻿using DestinyArmorTool.Events;
 
-namespace TestApp.TUI;
+namespace DestinyArmorTool.TUI;
 
 public interface IMainView
 {

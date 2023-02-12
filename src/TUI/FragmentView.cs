@@ -1,7 +1,7 @@
 ﻿using NStack;
 using Terminal.Gui;
 
-namespace TestApp.TUI;
+namespace DestinyArmorTool.TUI;
 
 public sealed class FragmentView : FrameView, IFragmentView
 {

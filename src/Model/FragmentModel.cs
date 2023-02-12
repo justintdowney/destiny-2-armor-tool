@@ -1,6 +1,6 @@
-﻿using TestApp.Data;
+﻿using DestinyArmorTool.Data;
 
-namespace TestApp.Model;
+namespace DestinyArmorTool.Model;
 
 public class FragmentModel
 {

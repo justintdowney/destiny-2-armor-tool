@@ -1,7 +1,7 @@
-﻿using Terminal.Gui;
-using TestApp.Data;
+﻿using DestinyArmorTool.Data;
+using Terminal.Gui;
 
-namespace TestApp.TUI;
+namespace DestinyArmorTool.TUI;
 
 public sealed class SummaryView : FrameView, ISummaryView
 {

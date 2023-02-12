@@ -1,4 +1,4 @@
-﻿namespace TestApp.Data;
+﻿namespace DestinyArmorTool.Data;
 
 public static class Constants
 {

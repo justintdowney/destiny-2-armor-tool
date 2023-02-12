@@ -1,4 +1,4 @@
-﻿namespace TestApp.TUI;
+﻿namespace DestinyArmorTool.TUI;
 
 public interface ISummaryView
 {

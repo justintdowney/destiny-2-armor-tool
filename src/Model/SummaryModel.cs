@@ -1,4 +1,4 @@
-﻿namespace TestApp.Model;
+﻿namespace DestinyArmorTool.Model;
 
 internal class SummaryModel
 {

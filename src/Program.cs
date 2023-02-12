@@ -1,8 +1,8 @@
-﻿using Terminal.Gui;
-using TestApp.Presenter;
-using TestApp.TUI;
+﻿using DestinyArmorTool.Presenter;
+using DestinyArmorTool.TUI;
+using Terminal.Gui;
 
-namespace TestApp;
+namespace DestinyArmorTool;
 
 public static class Program
 {

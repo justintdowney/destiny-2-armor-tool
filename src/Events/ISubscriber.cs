@@ -1,4 +1,4 @@
-﻿namespace TestApp.Events;
+﻿namespace DestinyArmorTool.Events;
 
 public interface ISubscriber<in TMessage>
 {

@@ -1,8 +1,8 @@
-﻿using Terminal.Gui;
-using TestApp.Events;
+﻿using DestinyArmorTool.Events;
+using Terminal.Gui;
 using Attribute = Terminal.Gui.Attribute;
 
-namespace TestApp.TUI;
+namespace DestinyArmorTool.TUI;
 
 public sealed class MainView : Toplevel, IMainView
 {
@@ -105,7 +105,7 @@ public sealed class MainView : Toplevel, IMainView
 
     private void ExportClicked()
     {
-        ExportRequested?.Invoke(new ExportRequestedEventArgs(0));
+        ExportRequested.Invoke(new ExportRequestedEventArgs(0));
     }
 
     private void OnListImport()
@@ -118,6 +118,7 @@ public sealed class MainView : Toplevel, IMainView
             ColorScheme = Colors.ColorSchemes["Base"]
         };
         Application.Run(openDialog);
-        ListImported?.Invoke(new ListImportedEventArgs(openDialog.FilePath.ToString()));
+        if(!openDialog.Canceled)
+            ListImported.Invoke(new ListImportedEventArgs(openDialog.FilePath.ToString()));
     }
 }

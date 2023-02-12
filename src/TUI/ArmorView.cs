@@ -1,7 +1,7 @@
 ﻿using Terminal.Gui;
 using Attribute = Terminal.Gui.Attribute;
 
-namespace TestApp.TUI;
+namespace DestinyArmorTool.TUI;
 
 public sealed class ArmorView : FrameView, IArmorView
 {
