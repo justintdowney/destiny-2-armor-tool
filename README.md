@@ -113,7 +113,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - Justin Downey - justintdowney@gmail.com
+Justin Downey - justintdowney@gmail.com
 
 Project Link: [https://github.com/justintdowney/destiny-2-armor-tool](https://github.com/github_username/repo_name)
 
